@@ -13,11 +13,6 @@ services:
       - 80:80
     env_file:
       - .env
-# TODO：ホストのソースとreact-create-appで作成されたコードをバインドする方がいいと思う
-  frontend:
-    build: frontend/
-    ports:
-      - 3000:3000
 
   # web:
   #   build: /nginx
